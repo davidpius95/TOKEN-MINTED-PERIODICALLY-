@@ -155,7 +155,7 @@ contract STEV is Ownable,IERC20 {
     uint8 public _decimals;            // Number of decimals of the smallest unit
     uint public _totalSupply;
     uint timeMintedLast;
-    uint amountToMint = 50000000*10**18;
+    uint amountToMint = 5000000*10**18;
     uint totalToMint = 50000000*10**18;
     
     mapping (address => uint256) public balances;
